@@ -1,0 +1,43 @@
+patch:
+  "menu/page_size": 8
+  "emoji_suggestion/tips": none
+  punctuator/half_shape:
+      "!": {commit: "！"}
+      "\"": {pair: ["“", "”"]}
+      "#": "#"
+      "$": "¥"
+      "%": "%"
+      "&": "&"
+      "'": {pair: ["‘", "’"]}
+      "(": "（"
+      ")": "）"
+      "*": "*"
+      "+": "+"
+      ",": {commit: "，"}
+      "-": "-"
+      .: {commit: "。"}
+      "/": "/"
+      ":": {commit: "："}
+      ";": {commit: "；"}
+      "<": "《"
+      "=": "="
+      ">": "》"
+      "?": {commit: "？"}
+      "@": "@"
+      "[": "【"
+      "\\": "、"
+      "]":  "】"
+      "^": {commit: "……"}
+      _: "──"
+      "`": "·"
+      "{": "「"
+      "|": "|"
+      "}":  "」"
+      "~": "~"
+  radical_reverse_lookup/prefix: "u"
+  radical_reverse_lookup/tips: ''
+  recognizer/patterns/radical_lookup: "u[a-z]*'?$"
+  # 默认中文状态
+  switches/@0/reset: 0
+  # 只保留中文输入法
+  switches/@0/states:  [中文]
