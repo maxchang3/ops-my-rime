@@ -34,9 +34,9 @@ patch:
       "|": "|"
       "}":  "」"
       "~": "~"
-  radical_reverse_lookup/prefix: "u"
-  radical_reverse_lookup/tips: ''
-  recognizer/patterns/radical_lookup: "u[a-z]*'?$"
+  # radical_reverse_lookup/prefix: "u"
+  # radical_reverse_lookup/tips: ''
+  # recognizer/patterns/radical_lookup: "u[a-z]*'?$"
   # 默认中文状态
   switches/@0/reset: 0
   # 只保留中文输入法
