@@ -92,7 +92,7 @@ patch:
       spacing: 10                    # 拼音与候选项之间的距离 （inline_preedit: false）
       color_space: srgb                       # 色彩空间： srgb | display_p3
       back_color: 0x1f1f1f                  # 底色
-      hilited_candidate_back_color: 0xD75A00  # 选中底色
+      hilited_candidate_back_color: 0xD15925  # 选中底色
       label_color: 0x999999                   # 序号颜色
       hilited_candidate_label_color: 0xFFFFFF # 选中序号颜色
       candidate_text_color: 0xe9e9ea          # 文字颜色
