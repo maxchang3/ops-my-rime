@@ -89,4 +89,4 @@ patch:
       - { when: always, accept: Control+Shift+5, toggle: extended_charset } # 切换扩展字符
       - { when: always, accept: Shift+space, toggle: noop } # 另一种切换全角/半角的方式
       - { when: always, accept: Control+period, toggle: noop } # 切换中/西文标点
-  speller/auto_select: true
+  # speller/auto_select: true
