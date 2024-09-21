@@ -41,6 +41,11 @@ patch:
   switches/@0/reset: 0
   # 只保留中文输入法
   switches/@0/states:  [中文]
+  save_options:
+    - full_shape  # 保留全角模式
+    # - ascii_punct # 保留西文模式
+    - transcription     # 保留汉字简繁体选项
+    - emoji_suggestion  # Emoji
   engine/processors:
     - lua_processor@*select_character              # 以词定字
     - lua_processor@*codeLengthLimit_processor     # 使用Lua限制输入内容的最大长度(防止过长而卡顿)
